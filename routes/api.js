@@ -2,31 +2,31 @@ const express = require('express');
 const router = express.Router();
 
 // Import semua data dummy
-const dummyData1 = require('../data/dummyCount.json');
-const dummyData2 = require('../data/dummyGenderRatio.json');
-const dummyData3 = require('../data/dummyHeatmap.json');
-const dummyData4 = require('../data/dummyPeakDay.json');
-const dummyData5 = require('../data/dummyPeakDay.json');
+const count = require('../data/dummyCount.json');
+const gender_ratio = require('../data/dummyGenderRatio.json');
+const heatmap = require('../data/dummyHeatmap.json');
+const peakTime = require('../data/dummyPeakTime.json');
+const peakDay = require('../data/dummyPeakDay.json');
 
 // Define rute untuk masing-masing data
 router.get('/count', (req, res) => {
-  res.json(dummyData1);
+  res.json(count);
 });
 
 router.get('/gender_ratio', (req, res) => {
-  res.json(dummyData2);
+  res.json(gender_ratio);
 });
 
 router.get('/heatmap', (req, res) => {
-  res.json(dummyData3);
+  res.json(heatmap);
 });
 
 router.get('/peak_time', (req, res) => {
-  res.json(dummyData4);
+  res.json(peakTime);
 });
 
 router.get('/peak_day', (req, res) => {
-  res.json(dummyData5);
+  res.json(peakDay);
 });
 
 module.exports = router;
