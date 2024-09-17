@@ -1,0 +1,18 @@
+{
+  "status_code:": 200,
+  "message": [
+    "success"
+  ],
+  "data": [
+    {
+      "name": "Male",
+      "value": 30,
+      "color": "#A5D8FF"
+    },
+    {
+      "name": "Female",
+      "value": 70,
+      "color": "#FF8787"
+    }
+  ]
+}

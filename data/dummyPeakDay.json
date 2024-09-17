@@ -1,0 +1,36 @@
+{
+  "status_code:": 200,
+  "message": [
+    "success"
+  ],
+  "data": [
+    {
+      "name": "Mon",
+      "visitors": 5
+    },
+    {
+      "name": "Tue",
+      "visitors": 4
+    },
+    {
+      "name": "Wed",
+      "visitors": 4
+    },
+    {
+      "name": "Thu",
+      "visitors": 5
+    },
+    {
+      "name": "Fri",
+      "visitors": 7
+    },
+    {
+      "name": "Sat",
+      "visitors": 10
+    },
+    {
+      "name": "Sun",
+      "visitors": 9
+    }
+  ]
+}

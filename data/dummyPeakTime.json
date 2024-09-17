@@ -1,0 +1,56 @@
+{
+  "status_code:": 200,
+  "message": [
+    "success"
+  ],
+  "data": [
+    {
+      "name": "09:00",
+      "visitors": 3
+    },
+    {
+      "name": "10:00",
+      "visitors": 5
+    },
+    {
+      "name": "11:00",
+      "visitors": 2
+    },
+    {
+      "name": "12:00",
+      "visitors": 8
+    },
+    {
+      "name": "13:00",
+      "visitors": 3
+    },
+    {
+      "name": "14:00",
+      "visitors": 6
+    },
+    {
+      "name": "15:00",
+      "visitors": 4
+    },
+    {
+      "name": "16:00",
+      "visitors": 8
+    },
+    {
+      "name": "17:00",
+      "visitors": 10
+    },
+    {
+      "name": "18:00",
+      "visitors": 6
+    },
+    {
+      "name": "19:00",
+      "visitors": 4
+    },
+    {
+      "name": "20:00",
+      "visitors": 4
+    }
+  ]
+}

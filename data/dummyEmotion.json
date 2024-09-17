@@ -1,0 +1,43 @@
+{
+  "status_code:": 200,
+  "message": [
+    "success"
+  ],
+  "data": [
+    {
+      "emotion": "Happy",
+      "number_of_visitor": 13,
+      "percentage": 34
+    },
+    {
+      "emotion": "Neutral",
+      "number_of_visitor": 8,
+      "percentage": 1
+    },
+    {
+      "emotion": "Surprise",
+      "number_of_visitor": 5,
+      "percentage": 1
+    },
+    {
+      "emotion": "Angry",
+      "number_of_visitor": 2,
+      "percentage": 2
+    },
+    {
+      "emotion": "Sad",
+      "number_of_visitor": 1,
+      "percentage": 8
+    },
+    {
+      "emotion": "Disgust",
+      "number_of_visitor": 12,
+      "percentage": 15
+    },
+    {
+      "emotion": "Fear",
+      "number_of_visitor": 20,
+      "percentage": 30
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "status_code:": 200,
+  "message": [
+    "success"
+  ],
+  "data": [
+    {
+      "zone": "Entrance",
+      "total_visitor": 0,
+      "detail_by_gender": [
+        {
+          "gender": "male",
+          "total": 0
+        },
+        {
+          "gender": "female",
+          "total": 0
+        }
+      ],
+      "imageSrc": "https://picsum.photos/seed/qqq/200/100"
+    },
+    {
+      "zone": "Exit",
+      "total_visitor": 10,
+      "detail_by_gender": [
+        {
+          "gender": "male",
+          "total": 3
+        },
+        {
+          "gender": "female",
+          "total": 7
+        }
+      ],
+      "imageSrc": "https://picsum.photos/seed/moonlay/200/100"
+    },
+    {
+      "zone": "Main Hall",
+      "total_visitor": 10,
+      "detail_by_gender": [
+        {
+          "gender": "male",
+          "total": 9
+        },
+        {
+          "gender": "female",
+          "total": 1
+        }
+      ],
+      "imageSrc": "https://picsum.photos/seed/qwe/200/100"
+    },
+    {
+      "zone": "Customer Service",
+      "total_visitor": 30,
+      "detail_by_gender": [
+        {
+          "gender": "male",
+          "total": 20
+        },
+        {
+          "gender": "female",
+          "total": 10
+        }
+      ],
+      "imageSrc": "https://picsum.photos/seed/geg/200/100"
+    }
+  ]
+}
