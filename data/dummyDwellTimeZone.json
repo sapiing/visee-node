@@ -1,0 +1,36 @@
+{
+  "status_code:": 200,
+  "message": [
+    "success"
+  ],
+  "data": [
+    {
+      "zone": "Thu, 1 Jun 2024",
+      "avg_dw_time": 47
+    },
+    {
+      "zone": "Fri, 2 Jun 2024",
+      "avg_dw_time": 29
+    },
+    {
+      "zone": "Sat, 3 Jun 2024",
+      "avg_dw_time": 20
+    },
+    {
+      "zone": "Sun, 4 Jun 2024",
+      "avg_dw_time": 31
+    },
+    {
+      "zone": "Mon, 5 Jun 2024",
+      "avg_dw_time": 34
+    },
+    {
+      "zone": "Tue, 6 Jun 2024",
+      "avg_dw_time": 36
+    },
+    {
+      "zone": "Wed, 7 Jun 2024",
+      "avg_dw_time": 48
+    }
+  ]
+}
