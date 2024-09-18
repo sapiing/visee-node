@@ -9,34 +9,45 @@ const peakTime = require('../data/dummyPeakTime.json');
 const peakDay = require('../data/dummyPeakDay.json');
 const dwellTimeZone = require('../data/dummyDwellTimeZone.json');
 const dwellTimePeriod = require('../data/dummyDwellTimePeriod.json');
+const visitorsAgeDistribution = require('../data/dummyVisitorsAgeDistribution.json')
+const visitorsEmotionDistribution = require('../data/dummyVisitorsEmotionDistribution.json')
+
 
 // Define rute untuk masing-masing data
 router.get('/count', (req, res) => {
-  res.json(count);
+    res.json(count);
 });
 
 router.get('/gender-ratio', (req, res) => {
-  res.json(gender_ratio);
+    res.json(gender_ratio);
 });
 
 router.get('/heatmap', (req, res) => {
-  res.json(heatmap);
+    res.json(heatmap);
 });
 
 router.get('/peak-time', (req, res) => {
-  res.json(peakTime);
+    res.json(peakTime);
 });
 
 router.get('/peak-day', (req, res) => {
-  res.json(peakDay);
+    res.json(peakDay);
 });
 
 router.get('/dwell-time-zone', (req, res) => {
-  res.json(dwellTimeZone);
+    res.json(dwellTimeZone);
 });
 
 router.get('/dwell-time-period', (req, res) => {
-  res.json(dwellTimePeriod);
+    res.json(dwellTimePeriod);
+});
+
+router.get('/visitor-by-emotion', (req, res) => {
+    res.json(visitorsEmotionDistribution);
+});
+
+router.get('/visitor-by-age', (req, res) => {
+    res.json(visitorsAgeDistribution);
 });
 
 module.exports = router;
