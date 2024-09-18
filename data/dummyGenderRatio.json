@@ -6,12 +6,12 @@
   "data": [
     {
       "name": "Male",
-      "value": 30,
+      "value": 67,
       "color": "#A5D8FF"
     },
     {
       "name": "Female",
-      "value": 70,
+      "value": 43,
       "color": "#FF8787"
     }
   ]
