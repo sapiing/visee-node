@@ -14,7 +14,7 @@ const visitorsEmotionDistribution = require('../data/dummyVisitorsEmotionDistrib
 
 
 // Define rute untuk masing-masing data
-router.get('/count', (req, res) => {
+router.get('/total-visitors', (req, res) => {
     res.json(count);
 });
 
@@ -22,15 +22,15 @@ router.get('/gender-ratio', (req, res) => {
     res.json(gender_ratio);
 });
 
-router.get('/heatmap', (req, res) => {
+router.get('/visitors-by-zone', (req, res) => {
     res.json(heatmap);
 });
 
-router.get('/peak-time', (req, res) => {
+router.get('/avg-peak-time', (req, res) => {
     res.json(peakTime);
 });
 
-router.get('/peak-day', (req, res) => {
+router.get('/avg-peak-day', (req, res) => {
     res.json(peakDay);
 });
 
@@ -42,11 +42,11 @@ router.get('/dwell-time-period', (req, res) => {
     res.json(dwellTimePeriod);
 });
 
-router.get('/visitor-by-emotion', (req, res) => {
+router.get('/emotion-distribution', (req, res) => {
     res.json(visitorsEmotionDistribution);
 });
 
-router.get('/visitor-by-age', (req, res) => {
+router.get('/age-distribution', (req, res) => {
     res.json(visitorsAgeDistribution);
 });
 
