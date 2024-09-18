@@ -1,0 +1,40 @@
+{
+  "status_code:": 200,
+  "message": [
+    "success"
+  ],
+  "data": [
+    {
+      "age": "0-2",
+      "number_of_visitor": 150
+    },
+    {
+      "age": "4-6",
+      "number_of_visitor": 250
+    },
+    {
+      "age": "8-12",
+      "number_of_visitor": 400
+    },
+    {
+      "age": "15-20",
+      "number_of_visitor": 700
+    },
+    {
+      "age": "25-32",
+      "number_of_visitor": 500
+    },
+    {
+      "age": "38-43",
+      "number_of_visitor": 350
+    },
+    {
+      "age": "48-53",
+      "number_of_visitor": 200
+    },
+    {
+      "age": "60-100",
+      "number_of_visitor": 100
+    }
+  ]
+}
