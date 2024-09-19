@@ -7,7 +7,7 @@ const cors = require('cors')
 app.use(express.json());
 
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: ['http://localhost:3000', 'http://k8s-visee-viseedas-02f5ab8fdf-87eb54d9bc18a162.elb.ap-southeast-1.amazonaws.com'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Sesuaikan dengan metode yang Anda gunakan
     allowedHeaders: ['Content-Type', 'Authorization'] // Sesuaikan jika perlu
 }));
