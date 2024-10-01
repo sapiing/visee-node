@@ -5,19 +5,19 @@
   ],
   "data": [
     {
-      "emotion": "Happy",
-      "number_of_visitor": 13,
-      "percentage": 34
-    },
-    {
       "emotion": "Neutral",
       "number_of_visitor": 8,
-      "percentage": 1
+      "percentage": 10
     },
     {
       "emotion": "Surprise",
       "number_of_visitor": 5,
-      "percentage": 1
+      "percentage": 10
+    },
+        {
+      "emotion": "Happy",
+      "number_of_visitor": 13,
+      "percentage": 34
     },
     {
       "emotion": "Angry",
@@ -37,7 +37,7 @@
     {
       "emotion": "Fear",
       "number_of_visitor": 20,
-      "percentage": 30
+      "percentage": 20
     }
   ]
 }
