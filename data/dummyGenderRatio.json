@@ -6,13 +6,13 @@
   "data": [
     {
       "gender": "female",
-      "total": 0,
-      "percentage": 0
+      "total": 20,
+      "percentage": 20
     },
     {
       "gender": "male",
-      "total": 0,
-      "percentage": 0
+      "total": 80,
+      "percentage": 80
     }
   ]
 }
