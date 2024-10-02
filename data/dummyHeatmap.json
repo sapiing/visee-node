@@ -16,8 +16,8 @@
           "gender": "female",
           "total": 0
         }
-      ],
-      "imageSrc": "https://picsum.photos/seed/qqq/200/100"
+      ]
+      
     },
     {
       "zone": "Exit",
@@ -31,8 +31,8 @@
           "gender": "female",
           "total": 7
         }
-      ],
-      "imageSrc": "https://picsum.photos/seed/moonlay/200/100"
+      ]
+      
     },
     {
       "zone": "Main Hall",
@@ -46,8 +46,8 @@
           "gender": "female",
           "total": 1
         }
-      ],
-      "imageSrc": "https://picsum.photos/seed/qwe/200/100"
+      ]
+      
     },
     {
       "zone": "Customer Service",
@@ -61,8 +61,8 @@
           "gender": "female",
           "total": 10
         }
-      ],
-      "imageSrc": "https://picsum.photos/seed/geg/200/100"
+      ]
+      
     }
   ]
 }
