@@ -5,14 +5,14 @@
   ],
   "data": [
     {
-      "name": "Male",
-      "value": 67,
-      "color": "#A5D8FF"
+      "gender": "female",
+      "total": 0,
+      "percentage": 0
     },
     {
-      "name": "Female",
-      "value": 43,
-      "color": "#FF8787"
+      "gender": "male",
+      "total": 0,
+      "percentage": 0
     }
   ]
 }
