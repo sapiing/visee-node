@@ -1,0 +1,20 @@
+{
+  "status_code:": 200,
+  "message": [
+    "success"
+  ],
+  "data": [
+    {
+      "address": "Jl. Gatotmangkupraja"
+    },
+    {
+      "address": "Jl. SCBD"
+    },
+    {
+      "address": "Jl. Senayan"
+    },
+    {
+      "address": "Jl. DKI Jakarta"
+    }
+  ]
+}

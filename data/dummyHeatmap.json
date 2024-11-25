@@ -6,6 +6,7 @@
   "data": [
     {
       "zone": "Entrance",
+      "zone_uuid": "",
       "total_visitor": 0,
       "detail_by_gender": [
         {

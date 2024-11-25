@@ -11,6 +11,7 @@ const dwellTimeZone = require('../data/dummyDwellTimeZone.json');
 const dwellTimePeriod = require('../data/dummyDwellTimePeriod.json');
 const visitorsAgeDistribution = require('../data/dummyVisitorsAgeDistribution.json')
 const visitorsEmotionDistribution = require('../data/dummyVisitorsEmotionDistribution.json')
+const address = require('../data/dummyAddress.json');
 
 
 // Define rute untuk masing-masing data
@@ -48,6 +49,14 @@ router.get('/emotion-distribution', (req, res) => {
 
 router.get('/age-distribution', (req, res) => {
     res.json(visitorsAgeDistribution);
+});
+
+router.get('/age-distribution', (req, res) => {
+    res.json(visitorsAgeDistribution);
+});
+
+router.get('/address', (req, res) => {
+    res.json(address);
 });
 
 module.exports = router;
